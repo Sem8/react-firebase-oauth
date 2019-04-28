@@ -1,4 +1,4 @@
-import React, { component } from 'react';
+import React, { Component } from 'react';
 import Delay from 'react-delay';
 
 import { auth } from '../firebase';
@@ -22,7 +22,7 @@ export default WrappedComponent => {
 
         render() {
             return this.state.providerData.length > 0 ? (
-                <Wrappedcomponent
+                <WrappedComponent
                 {...this.props}
                 providerData={this.state.providerData}
                  />

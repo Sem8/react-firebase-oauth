@@ -14,7 +14,7 @@ const defaultProps = {
 
 const Layout = ({ children, contentCenter }) => {
     return (
-        <Section>
+        <section>
             <header>
                 <h1>OAuth Authentication with Firbase</h1>
             </header>
@@ -29,7 +29,7 @@ const Layout = ({ children, contentCenter }) => {
                 </p>
             </footer>
 
-        </Section>
+        </section>
     );
 };
 
